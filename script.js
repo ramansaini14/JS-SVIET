@@ -57,6 +57,20 @@
 // let num2 = undefined;
 // console.log(num2);
 
+//Falsey Values And Truthy Values
+// FALSEY VALUES 
+// 1. NAN
+// 2. ""
+// 3. Null 
+// 4. undefined 
+// 5. 0
+
+// Truthy Values 
+// 1. true
+// 2. 1
+// 3. Any Expected output value (6,09,3456789)
+
+
 // const arr = [1,2,3,4,5];
 // console.log(arr[3]);
 
@@ -149,9 +163,67 @@
 
 // ternary operator
 
+// IF ELSE 
+// if (Condition){
+
+// }
+// else{
+
+// }
+
+let a = 5;
+let b = 5;
+// if(b!=a){
+//     console.log('A is not equal to 5');
+    
+// }
+// else{
+//     console.log('A is equal to 5');
+    
+// }
+(a == b) ?  console.log('A is equal to 5') : console.log('A is not equal to 5');
+
+
 // NOTE - Logical and comparison operators are used to return a boolean value, whether true or false 
 
 // HOSTING 
 // HOISTING 
 
 // SYSTEM INFORMATION 
+
+// DOM 
+// let inputBox = document.getElementById('inputBox').value;
+// console.log(inputBox);
+
+// Template Literals
+
+let str = `this is a 'string' and variable is `;
+console.log(str);
+let vari = 10;
+
+// ${...} -- String Interpolation
+console.log(`Note - ${str} + ${vari}`);
+
+let str2 = `this is a text
+this is wonderful approach`;
+console.log(str2);
+
+// Array  
+let arr = ["One","Two","Three","Four","Five"];
+console.log(arr);
+
+// console.log(arr[3]);
+
+// console.log(arr.length);
+// console.log(arr.toString());
+// console.log(arr.join(" @ "));
+console.log(arr.pop())
+console.log(arr.pop())
+console.log(arr.pop())
+// Arrays are mutable 
+console.log(arr);
+
+
+
+
+
