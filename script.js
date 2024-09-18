@@ -277,8 +277,41 @@
 // }
 
 //ARROW FUNCTION
-const funcArrow = () => {
-    console.log('Hey This is a function .. ');
-}
-funcArrow();
+// const funcArrow = () => {
+//     console.log('Hey This is a function .. ');
+// }
+// funcArrow();
 
+
+// COnditional Statements 
+// if (condition)
+// {
+        //if code block
+// }
+
+// else {
+        //else code block 
+// }
+
+const calculator = () => {
+    let a = document.getElementById("checker").value;
+
+    // console.log(a);
+    
+    if(a>=5)
+    {
+        document.getElementById("resultDisplayer").innerHTML = "A is Greater or equal to 5";
+        
+    }
+    else {
+        document.getElementById("resultDisplayer").innerHTML = "A is less than 5";
+    }
+
+}
+
+// Create a range bar and display its values on your visualViewport.
+function ranged(){
+    let rangeVari = document.getElementById("rangeVal").value;
+    document.getElementById("storageRange").innerHTML = rangeVari;
+
+}
