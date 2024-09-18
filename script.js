@@ -1,3 +1,4 @@
+// function func1();
 // var second;
 // LET VAR CONST 
 
@@ -171,8 +172,8 @@
 
 // }
 
-let a = 5;
-let b = 5;
+// let a = 5;
+// let b = 5;
 // if(b!=a){
 //     console.log('A is not equal to 5');
     
@@ -181,7 +182,7 @@ let b = 5;
 //     console.log('A is equal to 5');
     
 // }
-(a == b) ?  console.log('A is equal to 5') : console.log('A is not equal to 5');
+// (a == b) ?  console.log('A is equal to 5') : console.log('A is not equal to 5');
 
 
 // NOTE - Logical and comparison operators are used to return a boolean value, whether true or false 
@@ -197,33 +198,87 @@ let b = 5;
 
 // Template Literals
 
-let str = `this is a 'string' and variable is `;
-console.log(str);
-let vari = 10;
+// let str = `this is a 'string' and variable is `;
+// console.log(str);
+// let vari = 10;
 
 // ${...} -- String Interpolation
-console.log(`Note - ${str} + ${vari}`);
+// console.log(`Note - ${str} + ${vari}`);
 
-let str2 = `this is a text
-this is wonderful approach`;
-console.log(str2);
+// let str2 = `this is a text
+// this is wonderful approach`;
+// console.log(str2);
 
 // Array  
-let arr = ["One","Two","Three","Four","Five"];
-console.log(arr);
+// console.log(arr);
 
 // console.log(arr[3]);
 
 // console.log(arr.length);
 // console.log(arr.toString());
 // console.log(arr.join(" @ "));
-console.log(arr.pop())
-console.log(arr.pop())
-console.log(arr.pop())
+// console.log(arr.pop())
+// console.log(arr.pop())
+// console.log(arr.pop())
 // Arrays are mutable 
-console.log(arr);
+// console.log(arr);
+
+// let arr = ["One","Two","Three","Four","Five"];
+// console.log(arr);
+// console.log(arr.pop());
+// console.log(arr);
+// console.log(arr.push("ANOTHER ELEMENT"));
+// console.log(arr);
+
+// console.log(arr.shift());
+// console.log(arr);
+
+// console.log(arr.unshift("FromLeft"));
+// console.log(arr);
+
+// console.log(delete arr[2]);
+// console.log(arr);
+
+// arr[2] = "Empteed";
+// console.log(arr);
+
+// let arr2 = ["SomeEEle", "AnotherEle"];
+// console.log(arr2);
+// let arr3 = ["SomeEEleMent1", "AnotherEleMent1"];
+// console.log(arr3);
+
+// let joinedArr = arr2.concat(arr,arr3,"Sumit"); //"Sumit"
+// console.log(joinedArr);
+
+// Array of Arrays -- nested array
+//Array That i Have
+// let arrJagg = [
+//     [1,2],
+//     [3,4,5],
+//     [6]
+// ];
+// console.log(arrJagg);
+//Expectations
+// let arrjagg2 = [1,2,3,4,5,6];
+// console.log(arrJagg.flat());
+
+// let arr = ["One","Two","Three","Four","Five"];
+// console.log(arr.splice(3,0,"Hey"));
+// console.log(arr.slice(2,4));
+
+// console.log(arr);
 
 
+//Old Approach to make a funtion in JS
+// func1();
 
+// function func1(){
+//     console.log('Hey This is a function .. ');
+// }
 
+//ARROW FUNCTION
+const funcArrow = () => {
+    console.log('Hey This is a function .. ');
+}
+funcArrow();
 
