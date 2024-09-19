@@ -293,25 +293,112 @@
         //else code block 
 // }
 
-const calculator = () => {
-    let a = document.getElementById("checker").value;
+// const calculator = () => {
+//     let a = document.getElementById("checker").value;
 
     // console.log(a);
     
-    if(a>=5)
-    {
-        document.getElementById("resultDisplayer").innerHTML = "A is Greater or equal to 5";
+//     if(a>=5)
+//     {
+//         document.getElementById("resultDisplayer").innerHTML = "A is Greater or equal to 5";
         
-    }
-    else {
-        document.getElementById("resultDisplayer").innerHTML = "A is less than 5";
-    }
+//     }
+//     else {
+//         document.getElementById("resultDisplayer").innerHTML = "A is less than 5";
+//     }
 
-}
+// }
 
 // Create a range bar and display its values on your visualViewport.
-function ranged(){
-    let rangeVari = document.getElementById("rangeVal").value;
-    document.getElementById("storageRange").innerHTML = rangeVari;
+// function ranged(){
+//     let rangeVari = document.getElementById("rangeVal").value;
+//     document.getElementById("storageRange").innerHTML = rangeVari;
 
-}
+// }
+
+// If Else 
+
+// If -- one condition -- Example --  Do you drink coffee? 
+
+// Answer  -- Yes or a No 
+
+// true or false 
+// const time = new Date().getHours();
+// let greet;
+// if (time>=10 && time<=12)
+// {
+//     greet = "Good Morning";
+// }
+// else if(time>=13 && time<=16){
+//     greet="Good Afternoon";
+// }
+
+// else{
+//     greet="Good Night";
+// }
+
+// document.getElementById("dateOutput").innerHTML = greet;
+
+//Loops
+
+// for (Initialisation, condition, increment/decrement){
+    //code
+
+// }
+
+// Initialisation
+// while (condition) {
+        //code
+        // increment/decrement
+// }
+
+// do while 
+// Initialisation
+// do{
+    // code 
+    // increment/decrement
+// }while(Condition);
+
+// let a = 1;
+// while(a<=10){
+//     console.log(a);
+//     a++;
+// }
+
+// a=1;
+// do{
+//     console.log(a);
+//     a++;
+// }while(a<=10);
+
+// continue and break
+// for (a=1; a<=10; a++){
+    // console.log(a);
+//     if(a === 3){
+//         continue;
+//     }    
+//     myContent = "The Num is" + a;
+//     console.log(myContent)
+// }
+
+
+// console.log(arr[4]);
+
+// for(i=0; i<arr.length; i++){
+    //     console.log(arr[i]);
+    // }
+    
+// let arr = [2,2,2,2,2];
+// arr.forEach(thisFunc)
+
+// console.log(arr);
+
+// function thisFunc(i, j , arr){
+//     arr[j] = i*5;
+// }
+
+// function ab(a, str){
+//     console.log(a + str)
+// }
+
+// ab(2, "Name");
