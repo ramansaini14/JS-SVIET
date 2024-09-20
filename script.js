@@ -402,3 +402,44 @@
 // }
 
 // ab(2, "Name");
+
+
+// document.getElementById("")
+// document.getElementsByClassName("")
+
+// console.log('Hello');
+// console.log('Hello1');
+
+
+// function fun1(abc, five) {
+//     console.log(five+ ' I am a function ' + abc);
+//     fun2();
+// }
+// function fun2() {
+//     console.log('I am a function2');
+// }
+// fun1("This", 5);
+
+// console.log('Hello2');
+// console.log('Hello3');
+// console.log('Hello4');
+
+// CallBack -- Sending a funtion as an argument
+
+function cb(Numbers) {
+    document.getElementById("sumOutput").innerHTML = Numbers;
+}
+// function cbRc(number1, number2, cbfn){
+//     let sum = number1 + number2;
+//     cbfn(sum);
+    
+// }
+function cbRcSub(number1, number2, cbfn){
+    let sub = number1 - number2;
+    cbfn(sub);
+    
+}
+ 
+// cbRc(5,2, cb);
+let input1 = document.getElementById("id1").value;
+cbRcSub(input1,2, cb);
